@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio de Ludovic BULTEY — Sales / Account Manager, Business Development IT, IBM i / AS400, Modernisation SI, Data & IA.">
-  <title>Ludovic BULTEY | IT • Business • Modernisation SI</title>
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Portfolio de Ludovic BULTEY — Sales / Account Manager, Business Development IT, IBM i / AS400, Modernisation SI, Data &amp; IA." name="description"/>
+<title>Ludovic BULTEY | IT • Business • Modernisation SI</title>
+<style>
     :root{
       --bg:#08111f; --bg2:#0d1728; --card:#111d30; --text:#edf4ff; --muted:#aebbd0;
       --accent:#52a8ff; --accent2:#66e0c2; --line:#24344d; --max:1160px;
@@ -82,229 +83,219 @@
     #conclusion-parcours img{width:100% !important;max-width:550px !important;height:520px !important;object-fit:contain;background:#0d1728;margin:0 auto !important;}
     @media(max-width:850px){.feature-visual img,#conclusion-parcours img{height:420px !important}}
     @media(max-width:580px){.feature-visual img,#conclusion-parcours img{height:320px !important}}
-  </style>
+  
+/* Images à gauche, textes à droite ; conclusion centrée */
+.feature-side-by-side{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:28px;align-items:center;margin-top:30px}
+.feature-side-by-side .feature-visual{width:100%;max-width:none;margin:0}
+.feature-side-by-side .feature-copy{margin-top:0;max-width:none}
+.feature-side-by-side .feature-text .intro{margin-top:0}
+.feature-side-by-side .feature-text .chips{margin-top:20px}
+.feature-side-by-side .feature-text .flow{white-space:pre-wrap;overflow-wrap:anywhere;font-size:.83rem}
+@media(max-width:850px){.feature-side-by-side{grid-template-columns:1fr}.feature-side-by-side .feature-visual{max-width:550px}}
+</style>
 </head>
 <body>
 <nav>
-  <div class="wrap">
-    <a class="brand" href="#top">LB.</a>
-    <div class="links">
-      <a href="#profil">Profil</a><a href="#expertise">Expertise</a><a href="#parcours">Parcours</a>
-      <a href="#legacy">Legacy</a><a href="#agile">Agile</a><a href="#innovation">Innovation</a><a href="#ia">IA</a>
-      <a href="#projets">Projets</a><a href="#formation">Formation</a>
-    </div>
-  </div>
+<div class="wrap">
+<a class="brand" href="#top">LB.</a>
+<div class="links">
+<a href="#profil">Profil</a><a href="#expertise">Expertise</a><a href="#parcours">Parcours</a>
+<a href="#legacy">Legacy</a><a href="#agile">Agile</a><a href="#innovation">Innovation</a><a href="#ia">IA</a>
+<a href="#projets">Projets</a><a href="#formation">Formation</a>
+</div>
+</div>
 </nav>
-
 <header id="top">
-  <div class="wrap">
-    <div class="hero-layout">
-      <div class="hero-copy">
-        <div class="eyebrow">IT • Business • Transformation</div>
-    <h1>Ludovic<br>BULTEY</h1>
-    <p class="lead"><strong>Sales / Account Manager</strong> avec plus de 30 ans d'expérience à la croisée de la technologie, du business et de la transmission. Issu des systèmes IBM et du développement Legacy, j'accompagne aujourd'hui les enjeux de relation client, de développement commercial et de modernisation des systèmes d'information.</p>
-    <div class="hero-tags">
-      <span class="tag">Account Management</span><span class="tag">Business Development IT</span>
-      <span class="tag">IBM i / AS400</span><span class="tag">Legacy Modernization</span>
-      <span class="tag">Product Management</span><span class="tag">Data & IA</span><span class="tag">Cybersécurité</span>
-    </div>
-    <div class="actions">
-      <a class="btn primary" href="https://www.linkedin.com/in/ludovic-bultey/" target="_blank" rel="noopener">LinkedIn</a>
-      <a class="btn" href="#projets">Voir les projets</a>
-    </div>
-      </div>
-      <div class="hero-portrait">
-        <img class="profile-photo" src="photo-profil-ludovic-bultey.png" alt="Portrait professionnel de Ludovic BULTEY">
-        <p class="profile-caption">Ludovic BULTEY</p>
-      </div>
-    </div>
-  </div>
+<div class="wrap">
+<div class="hero-layout">
+<div class="hero-copy">
+<div class="eyebrow">IT • Business • Transformation</div>
+<h1>Ludovic<br/>BULTEY</h1>
+<p class="lead"><strong>Sales / Account Manager</strong> avec plus de 30 ans d'expérience à la croisée de la technologie, du business et de la transmission. Issu des systèmes IBM et du développement Legacy, j'accompagne aujourd'hui les enjeux de relation client, de développement commercial et de modernisation des systèmes d'information.</p>
+<div class="hero-tags">
+<span class="tag">Account Management</span><span class="tag">Business Development IT</span>
+<span class="tag">IBM i / AS400</span><span class="tag">Legacy Modernization</span>
+<span class="tag">Product Management</span><span class="tag">Data &amp; IA</span><span class="tag">Cybersécurité</span>
+</div>
+<div class="actions">
+<a class="btn primary" href="https://www.linkedin.com/in/ludovic-bultey/" rel="noopener" target="_blank">LinkedIn</a>
+<a class="btn" href="#projets">Voir les projets</a>
+</div>
+</div>
+<div class="hero-portrait">
+<img alt="Portrait professionnel de Ludovic BULTEY" class="profile-photo" src="photo-profil-ludovic-bultey.png"/>
+<p class="profile-caption">Ludovic BULTEY</p>
+</div>
+</div>
+</div>
 </header>
-
 <main>
 <section id="profil"><div class="wrap">
-  <div class="eyebrow">À propos</div><h2>Du Legacy à la transformation digitale</h2>
-  <p class="intro">Mon parcours a accompagné plusieurs générations technologiques : IBM AS/400, architectures Client/Serveur, Web, Cloud, Data et aujourd'hui Intelligence Artificielle. J'ai progressivement évolué du développement vers le Business Development IT, l'Account Management, la gestion de projet et le Product Management.</p>
-  <div class="grid">
-    <article class="card"><div class="metric">30+ ans</div><h3>Expérience IT</h3><p>Une connaissance de terrain des systèmes d'information, des applications Legacy et de leurs évolutions.</p></article>
-    <article class="card"><div class="metric">IT + Business</div><h3>Double culture</h3><p>Comprendre les environnements techniques tout en intégrant les besoins clients, les usages et la valeur économique.</p></article>
-    <article class="card"><div class="metric">B2B</div><h3>Relation client</h3><p>Sales, comptes stratégiques, développement commercial, négociation et accompagnement du changement.</p></article>
-  </div>
-  <blockquote>« Moderniser ne signifie pas nécessairement tout réécrire. »</blockquote>
+<div class="eyebrow">À propos</div><h2>Du Legacy à la transformation digitale</h2>
+<p class="intro">Mon parcours a accompagné plusieurs générations technologiques : IBM AS/400, architectures Client/Serveur, Web, Cloud, Data et aujourd'hui Intelligence Artificielle. J'ai progressivement évolué du développement vers le Business Development IT, l'Account Management, la gestion de projet et le Product Management.</p>
+<div class="grid">
+<article class="card"><div class="metric">30+ ans</div><h3>Expérience IT</h3><p>Une connaissance de terrain des systèmes d'information, des applications Legacy et de leurs évolutions.</p></article>
+<article class="card"><div class="metric">IT + Business</div><h3>Double culture</h3><p>Comprendre les environnements techniques tout en intégrant les besoins clients, les usages et la valeur économique.</p></article>
+<article class="card"><div class="metric">B2B</div><h3>Relation client</h3><p>Sales, comptes stratégiques, développement commercial, négociation et accompagnement du changement.</p></article>
+</div>
+<blockquote>« Moderniser ne signifie pas nécessairement tout réécrire. »</blockquote>
 </div></section>
-
 <section id="expertise"><div class="wrap">
-  <div class="eyebrow">Compétences</div><h2>Domaines d'expertise</h2>
-  <div class="grid">
-    <article class="card"><h3>💼 Sales & Account Management</h3><p>Gestion et développement de comptes, fidélisation, analyse des besoins, propositions commerciales, négociation, développement de la valeur client.</p></article>
-    <article class="card"><h3>🖥️ IBM & Legacy</h3><p>IBM i / AS400, Mainframe, OS/400, RPG, COBOL, CL, DB2/400, SYNON et BPCS.</p></article>
-    <article class="card"><h3>🔄 Modernisation SI</h3><p>Analyse de l'existant, continuité applicative, architectures, intégration, accompagnement du changement et transformation digitale.</p></article>
-    <article class="card"><h3>🚀 Product & Projet</h3><p>Product Management, stratégie produit, roadmap, KPI, Agile, Scrum, Lean, PERT et Waterfall.</p></article>
-    <article class="card"><h3>📊 Data & IA</h3><p>Python, SQL, Power BI, IA générative et agentique, documentation et compréhension assistées du code Legacy.</p></article>
-    <article class="card"><h3>🔐 Cyber & Résilience</h3><p>Veille autour de l'IAM, EDR, SIEM, résilience SI, NIS2, Cyber Resilience Act et AI Act.</p></article>
-  </div>
-  <div class="chips">
-    <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">PHP</span>
-    <span class="chip">Java</span><span class="chip">C# / .NET</span><span class="chip">SQL</span><span class="chip">Python</span>
-    <span class="chip">Jira</span><span class="chip">Notion</span><span class="chip">Trello</span><span class="chip">Miro</span><span class="chip">Figma</span>
-  </div>
+<div class="eyebrow">Compétences</div><h2>Domaines d'expertise</h2>
+<div class="grid">
+<article class="card"><h3>💼 Sales &amp; Account Management</h3><p>Gestion et développement de comptes, fidélisation, analyse des besoins, propositions commerciales, négociation, développement de la valeur client.</p></article>
+<article class="card"><h3>🖥️ IBM &amp; Legacy</h3><p>IBM i / AS400, Mainframe, OS/400, RPG, COBOL, CL, DB2/400, SYNON et BPCS.</p></article>
+<article class="card"><h3>🔄 Modernisation SI</h3><p>Analyse de l'existant, continuité applicative, architectures, intégration, accompagnement du changement et transformation digitale.</p></article>
+<article class="card"><h3>🚀 Product &amp; Projet</h3><p>Product Management, stratégie produit, roadmap, KPI, Agile, Scrum, Lean, PERT et Waterfall.</p></article>
+<article class="card"><h3>📊 Data &amp; IA</h3><p>Python, SQL, Power BI, IA générative et agentique, documentation et compréhension assistées du code Legacy.</p></article>
+<article class="card"><h3>🔐 Cyber &amp; Résilience</h3><p>Veille autour de l'IAM, EDR, SIEM, résilience SI, NIS2, Cyber Resilience Act et AI Act.</p></article>
+</div>
+<div class="chips">
+<span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">PHP</span>
+<span class="chip">Java</span><span class="chip">C# / .NET</span><span class="chip">SQL</span><span class="chip">Python</span>
+<span class="chip">Jira</span><span class="chip">Notion</span><span class="chip">Trello</span><span class="chip">Miro</span><span class="chip">Figma</span>
+</div>
 </div></section>
-
 <section id="actuel"><div class="wrap">
-  <div class="eyebrow">Mission actuelle</div><h2>Sales / Account Manager — PC SOFT</h2>
-  <p class="intro">Accompagnement d'un portefeuille de clients professionnels et de comptes nationaux et internationaux utilisant WINDEV, WEBDEV et WINDEV Mobile, notamment dans des environnements SI intégrant des écosystèmes IBM AS/400 – IBM i.</p>
-  <div class="grid two">
-    <article class="card"><h3>Développement des comptes</h3><ul><li>Gestion, fidélisation et développement du portefeuille</li><li>Analyse des besoins et des environnements applicatifs</li><li>Présentation des offres, licences et services</li><li>Élaboration, négociation et suivi des propositions commerciales</li></ul></article>
-    <article class="card"><h3>Transformation & modernisation</h3><ul><li>Continuité et évolution des SI historiques</li><li>Modernisation applicative</li><li>Évolution des modèles de licences, abonnements et services</li><li>Accompagnement au changement et transformation digitale</li></ul></article>
-  </div>
+<div class="eyebrow">Mission actuelle</div><h2>Sales / Account Manager — PC SOFT</h2>
+<p class="intro">Accompagnement d'un portefeuille de clients professionnels et de comptes nationaux et internationaux utilisant WINDEV, WEBDEV et WINDEV Mobile, notamment dans des environnements SI intégrant des écosystèmes IBM AS/400 – IBM i.</p>
+<div class="grid two">
+<article class="card"><h3>Développement des comptes</h3><ul><li>Gestion, fidélisation et développement du portefeuille</li><li>Analyse des besoins et des environnements applicatifs</li><li>Présentation des offres, licences et services</li><li>Élaboration, négociation et suivi des propositions commerciales</li></ul></article>
+<article class="card"><h3>Transformation &amp; modernisation</h3><ul><li>Continuité et évolution des SI historiques</li><li>Modernisation applicative</li><li>Évolution des modèles de licences, abonnements et services</li><li>Accompagnement au changement et transformation digitale</li></ul></article>
+</div>
 </div></section>
-
 <section id="parcours"><div class="wrap">
-  <div class="eyebrow">Expérience</div><h2>Un parcours construit dans l'IT</h2>
-  <div class="timeline">
-    <div class="event"><div class="date">2026 — aujourd'hui</div><h3>Sales / Account Manager — PC SOFT</h3><p>Gestion et développement de comptes, solutions logicielles, modernisation applicative et transformation des usages.</p></div>
-    <div class="event"><div class="date">2014 — 2026</div><h3>Enseignement & formation</h3><p>Sciences de gestion, informatique, gestion-finance, digitalisation et accompagnement pédagogique. Une expérience renforçant ma capacité à expliquer, transmettre et accompagner le changement.</p></div>
-    <div class="event"><div class="date">1993 — 2014</div><h3>Business Development IT & Management</h3><p>Inside Sales, ingénieur commercial, Key Account Manager, responsable d'agence et Business Manager dans des sociétés informatiques et ESN : Tektronix, Mediatec, Nat System, Brime Ingénierie, Abcis, Web Reflex et Omnitech.</p></div>
-    <div class="event"><div class="date">1990 — 1992</div><h3>Analyste IBM</h3><p>Développement, migration et exploitation sur IBM AS/400. GAP II/III, SYNON, BPCS, interfaces BULL/IBM, OS/400, Mainframe et StorageTek.</p></div>
-  </div>
+<div class="eyebrow">Expérience</div><h2>Un parcours construit dans l'IT</h2>
+<div class="timeline">
+<div class="event"><div class="date">2026 — aujourd'hui</div><h3>Sales / Account Manager — PC SOFT</h3><p>Gestion et développement de comptes, solutions logicielles, modernisation applicative et transformation des usages.</p></div>
+<div class="event"><div class="date">2014 — 2026</div><h3>Enseignement &amp; formation</h3><p>Sciences de gestion, informatique, gestion-finance, digitalisation et accompagnement pédagogique. Une expérience renforçant ma capacité à expliquer, transmettre et accompagner le changement.</p></div>
+<div class="event"><div class="date">1993 — 2014</div><h3>Business Development IT &amp; Management</h3><p>Inside Sales, ingénieur commercial, Key Account Manager, responsable d'agence et Business Manager dans des sociétés informatiques et ESN : Tektronix, Mediatec, Nat System, Brime Ingénierie, Abcis, Web Reflex et Omnitech.</p></div>
+<div class="event"><div class="date">1990 — 1992</div><h3>Analyste IBM</h3><p>Développement, migration et exploitation sur IBM AS/400. GAP II/III, SYNON, BPCS, interfaces BULL/IBM, OS/400, Mainframe et StorageTek.</p></div>
+</div>
 </div></section>
-
 <section id="leadership"><div class="wrap">
-  <div class="eyebrow">Leadership & terrain</div><h2>Fédérer, expliquer et accompagner l'action</h2>
-  <div class="leadership">
-    <figure class="leadership-photo">
-      <img src="Leadership.jpg" alt="Situation professionnelle illustrant le leadership et la coordination sur le terrain" loading="lazy">
-      <figcaption>Leadership de terrain — coordination, communication et accompagnement collectif.</figcaption>
-    </figure>
-    <div class="leadership-copy">
-      <p>Mon parcours dans le management, le développement commercial, la gestion de comptes et l'enseignement m'a conduit à intervenir dans des contextes où il faut <strong>donner une direction, communiquer clairement et mobiliser des interlocuteurs différents</strong>.</p>
-      <p>J'associe le leadership à une approche concrète : comprendre la situation, partager les objectifs, faciliter la décision et accompagner les équipes et les clients dans la mise en œuvre du changement.</p>
-      <div class="chips"><span class="chip">Leadership</span><span class="chip">Coordination</span><span class="chip">Communication</span><span class="chip">Transmission</span><span class="chip">Accompagnement du changement</span></div>
-    </div>
-  </div>
+<div class="eyebrow">Leadership &amp; terrain</div><h2>Fédérer, expliquer et accompagner l'action</h2>
+<div class="leadership">
+<figure class="leadership-photo">
+<img alt="Situation professionnelle illustrant le leadership et la coordination sur le terrain" loading="lazy" src="Leadership.jpg"/>
+<figcaption>Leadership de terrain — coordination, communication et accompagnement collectif.</figcaption>
+</figure>
+<div class="leadership-copy">
+<p>Mon parcours dans le management, le développement commercial, la gestion de comptes et l'enseignement m'a conduit à intervenir dans des contextes où il faut <strong>donner une direction, communiquer clairement et mobiliser des interlocuteurs différents</strong>.</p>
+<p>J'associe le leadership à une approche concrète : comprendre la situation, partager les objectifs, faciliter la décision et accompagner les équipes et les clients dans la mise en œuvre du changement.</p>
+<div class="chips"><span class="chip">Leadership</span><span class="chip">Coordination</span><span class="chip">Communication</span><span class="chip">Transmission</span><span class="chip">Accompagnement du changement</span></div>
+</div>
+</div>
 </div></section>
-
 <section id="competition"><div class="wrap">
-  <div class="eyebrow">Esprit de compétition & collectif</div><h2>Se dépasser, viser le résultat, réussir ensemble</h2>
-  <div class="leadership">
-    <figure class="leadership-photo">
-      <img src="UNSS 1986.jpg" alt="Photo d’équipe sportive illustrant l’esprit de compétition et la culture du collectif" loading="lazy" style="object-position:center center">
-      <figcaption>Sport collectif — engagement, persévérance, solidarité et culture du résultat.</figcaption>
-    </figure>
-    <div class="leadership-copy">
-      <h3>🏆 Une culture du challenge</h3>
-      <p>Le sport m’a appris très tôt des valeurs qui m’accompagnent encore dans mon parcours professionnel : engagement, persévérance, discipline, solidarité et goût du challenge.</p>
-      <p><strong>L’esprit de compétition, c’est vouloir progresser, se dépasser et viser le résultat sans oublier le collectif.</strong> Dans le sport comme dans l’entreprise, la performance individuelle prend tout son sens lorsqu’elle contribue à la réussite de l’équipe.</p>
-      <div class="chips"><span class="chip">Challenge</span><span class="chip">Persévérance</span><span class="chip">Esprit d’équipe</span><span class="chip">Engagement</span><span class="chip">Culture du résultat</span></div>
-    </div>
-  </div>
+<div class="eyebrow">Esprit de compétition &amp; collectif</div><h2>Se dépasser, viser le résultat, réussir ensemble</h2>
+<div class="leadership">
+<figure class="leadership-photo">
+<img alt="Photo d’équipe sportive illustrant l’esprit de compétition et la culture du collectif" loading="lazy" src="UNSS 1986.jpg" style="object-position:center center"/>
+<figcaption>Sport collectif — engagement, persévérance, solidarité et culture du résultat.</figcaption>
+</figure>
+<div class="leadership-copy">
+<h3>🏆 Une culture du challenge</h3>
+<p>Le sport m’a appris très tôt des valeurs qui m’accompagnent encore dans mon parcours professionnel : engagement, persévérance, discipline, solidarité et goût du challenge.</p>
+<p><strong>L’esprit de compétition, c’est vouloir progresser, se dépasser et viser le résultat sans oublier le collectif.</strong> Dans le sport comme dans l’entreprise, la performance individuelle prend tout son sens lorsqu’elle contribue à la réussite de l’équipe.</p>
+<div class="chips"><span class="chip">Challenge</span><span class="chip">Persévérance</span><span class="chip">Esprit d’équipe</span><span class="chip">Engagement</span><span class="chip">Culture du résultat</span></div>
+</div>
+</div>
 </div></section>
-
 <section id="legacy"><div class="wrap">
-  <div class="eyebrow">Legacy & modernisation</div><h2>De l’AS/400 à IBM i : faire évoluer ce qui fonctionne</h2>
-  <p class="intro"><strong>Un système Legacy n’est pas nécessairement un système obsolète.</strong> Mon expérience des environnements IBM AS/400 nourrit une approche pragmatique : comprendre le patrimoine applicatif, préserver sa valeur métier et l’ouvrir progressivement aux usages modernes.</p>
-  <figure class="feature-visual"><img src="Post AS400.png" alt="Infographie De l’AS/400 à IBM i — évolution et modernisation" loading="lazy"><figcaption>Legacy & modernisation — continuité, ouverture, intégration et innovation.</figcaption></figure>
-  <div class="feature-copy"><p>Un patrimoine applicatif représente des années de règles métier, de données, d'interfaces et de savoir-faire. Avant de remplacer, il faut déterminer ce qui mérite d'être conservé, sécurisé, modernisé, interfacé ou réécrit.</p></div>
-  <pre class="flow">COMPRENDRE → CARTOGRAPHIER → ÉVALUER → SÉCURISER → MODERNISER → INTÉGRER DATA & IA</pre>
-</div></section>
+<div class="eyebrow">Legacy &amp; modernisation</div><h2>De l’AS/400 à IBM i : faire évoluer ce qui fonctionne</h2>
 
+
+
+
+<div class="feature-side-by-side"><figure class="feature-visual"><img alt="Infographie De l’AS/400 à IBM i — évolution et modernisation" loading="lazy" src="Post AS400.png"/><figcaption>Legacy &amp; modernisation — continuité, ouverture, intégration et innovation.</figcaption></figure><div class="feature-text"><p class="intro"><strong>Un système Legacy n’est pas nécessairement un système obsolète.</strong> Mon expérience des environnements IBM AS/400 nourrit une approche pragmatique : comprendre le patrimoine applicatif, préserver sa valeur métier et l’ouvrir progressivement aux usages modernes.</p><div class="feature-copy"><p>Un patrimoine applicatif représente des années de règles métier, de données, d'interfaces et de savoir-faire. Avant de remplacer, il faut déterminer ce qui mérite d'être conservé, sécurisé, modernisé, interfacé ou réécrit.</p></div><pre class="flow">COMPRENDRE → CARTOGRAPHIER → ÉVALUER → SÉCURISER → MODERNISER → INTÉGRER DATA &amp; IA</pre></div></div></div></section>
 <section id="agile"><div class="wrap">
-  <div class="eyebrow">Agile & Product Management</div><h2>Réduire la distance entre l’idée et la valeur utilisateur</h2>
-  <p class="intro">Mon approche associe <strong>PERT, Lean, Agile et Product Management</strong> : optimiser le chemin critique, éliminer le superflu, travailler par itérations et maintenir l’alignement entre vision, besoins utilisateurs et exécution.</p>
-  <figure class="feature-visual"><img src="End-to-end Agile 2 - Juin 2026.png" alt="Infographie End-to-End Agile" loading="lazy"><figcaption>End-to-End Agile — aligner, livrer, mesurer, apprendre et ajuster.</figcaption></figure>
-  <div class="chips"><span class="chip">PERT</span><span class="chip">Lean</span><span class="chip">Agile</span><span class="chip">Scrum</span><span class="chip">Product Management</span><span class="chip">Valeur utilisateur</span></div>
-</div></section>
+<div class="eyebrow">Agile &amp; Product Management</div><h2>Réduire la distance entre l’idée et la valeur utilisateur</h2>
 
+
+
+<div class="feature-side-by-side"><figure class="feature-visual"><img alt="Infographie End-to-End Agile" loading="lazy" src="End-to-end Agile 2 - Juin 2026.png"/><figcaption>End-to-End Agile — aligner, livrer, mesurer, apprendre et ajuster.</figcaption></figure><div class="feature-text"><p class="intro">Mon approche associe <strong>PERT, Lean, Agile et Product Management</strong> : optimiser le chemin critique, éliminer le superflu, travailler par itérations et maintenir l’alignement entre vision, besoins utilisateurs et exécution.</p><div class="chips"><span class="chip">PERT</span><span class="chip">Lean</span><span class="chip">Agile</span><span class="chip">Scrum</span><span class="chip">Product Management</span><span class="chip">Valeur utilisateur</span></div></div></div></div></section>
 <section id="innovation"><div class="wrap">
-  <div class="eyebrow">Transmission & innovation</div><h2>Transmettre, inspirer, innover ensemble</h2>
-  <p class="intro">Transmettre les savoirs ne consiste pas seulement à enseigner l’existant : c’est aussi donner les moyens d’imaginer et de construire la suite. Mon expérience de l’enseignement et de la formation complète ainsi mon parcours IT et Business.</p>
-  <figure class="feature-visual"><img src="Transmettre, inspirer, innover ensemble v2 - Juin 2026(1).png" alt="Infographie Transmettre, inspirer, innover ensemble" loading="lazy"><figcaption>De l’idée au projet digital : transmission, accompagnement, innovation et impact.</figcaption></figure>
-  <div class="chips"><span class="chip">Transmission</span><span class="chip">Accompagnement</span><span class="chip">Innovation</span><span class="chip">Créativité</span><span class="chip">Impact</span><span class="chip">Transformation digitale</span></div>
-</div></section>
+<div class="eyebrow">Transmission &amp; innovation</div><h2>Transmettre, inspirer, innover ensemble</h2>
 
+
+
+<div class="feature-side-by-side"><figure class="feature-visual"><img alt="Infographie Transmettre, inspirer, innover ensemble" loading="lazy" src="Transmettre, inspirer, innover ensemble v2 - Juin 2026(1).png"/><figcaption>De l’idée au projet digital : transmission, accompagnement, innovation et impact.</figcaption></figure><div class="feature-text"><p class="intro">Transmettre les savoirs ne consiste pas seulement à enseigner l’existant : c’est aussi donner les moyens d’imaginer et de construire la suite. Mon expérience de l’enseignement et de la formation complète ainsi mon parcours IT et Business.</p><div class="chips"><span class="chip">Transmission</span><span class="chip">Accompagnement</span><span class="chip">Innovation</span><span class="chip">Créativité</span><span class="chip">Impact</span><span class="chip">Transformation digitale</span></div></div></div></div></section>
 <section id="ia"><div class="wrap">
-  <div class="eyebrow">Évangélisation IA</div><h2>Rendre l’IA compréhensible, utile et exploitable</h2>
-  <p class="intro">Au-delà de l’usage des outils, je m’intéresse à leur <strong>appropriation par les utilisateurs</strong> : vulgariser les concepts, partager des pratiques concrètes et transformer une technologie en usages opérationnels.</p>
-  <figure class="feature-visual"><img src="Post prompts IA juin 2026.png" alt="Infographie sur des prompts IA clairs, utiles et orientés résultat" loading="lazy"><figcaption>Acculturation IA — rechercher la clarté, la précision et l’utilité plutôt que la complexité.</figcaption></figure>
-  <div class="chips"><span class="chip">IA générative</span><span class="chip">Prompting</span><span class="chip">Acculturation</span><span class="chip">Vulgarisation</span><span class="chip">Productivité</span><span class="chip">Adoption</span></div>
-</div></section>
+<div class="eyebrow">Évangélisation IA</div><h2>Rendre l’IA compréhensible, utile et exploitable</h2>
 
+
+
+<div class="feature-side-by-side"><figure class="feature-visual"><img alt="Infographie sur des prompts IA clairs, utiles et orientés résultat" loading="lazy" src="Post prompts IA juin 2026.png"/><figcaption>Acculturation IA — rechercher la clarté, la précision et l’utilité plutôt que la complexité.</figcaption></figure><div class="feature-text"><p class="intro">Au-delà de l’usage des outils, je m’intéresse à leur <strong>appropriation par les utilisateurs</strong> : vulgariser les concepts, partager des pratiques concrètes et transformer une technologie en usages opérationnels.</p><div class="chips"><span class="chip">IA générative</span><span class="chip">Prompting</span><span class="chip">Acculturation</span><span class="chip">Vulgarisation</span><span class="chip">Productivité</span><span class="chip">Adoption</span></div></div></div></div></section>
 <section id="projets"><div class="wrap">
-  <div class="eyebrow">GitHub</div><h2>Projets & laboratoires</h2>
-  <p class="intro">Ces dépôts constituent la feuille de route du portfolio. Ils peuvent accueillir progressivement des démonstrateurs, articles techniques, architectures, notebooks et études.</p>
-  <div class="grid">
-    <article class="card"><h3>ibmi-modernization</h3><p>Modernisation IBM i / AS400 : RPG, COBOL, DB2, API, DevOps, VS Code et IA.</p></article>
-    <article class="card"><h3>legacy-modernization</h3><p>Patterns et réflexions autour de la transformation progressive des patrimoines applicatifs.</p></article>
-    <article class="card"><h3>ai-for-legacy</h3><p>IA pour la compréhension du code, la documentation, l'analyse des dépendances et des impacts.</p></article>
-    <article class="card"><h3>data-ai-lab</h3><p>Expérimentations Python, SQL, Power BI, analyse de données et Intelligence Artificielle.</p></article>
-    <article class="card"><h3>it-business-tco</h3><p>TCO, ROI, Build vs Buy, coûts de migration, dette technique et modèles économiques logiciels.</p></article>
-    <article class="card"><h3>cyber-resilience</h3><p>Veille et analyses sur la cybersécurité et la résilience des systèmes d'information.</p></article>
-  </div>
+<div class="eyebrow">GitHub</div><h2>Projets &amp; laboratoires</h2>
+<p class="intro">Ces dépôts constituent la feuille de route du portfolio. Ils peuvent accueillir progressivement des démonstrateurs, articles techniques, architectures, notebooks et études.</p>
+<div class="grid">
+<article class="card"><h3>ibmi-modernization</h3><p>Modernisation IBM i / AS400 : RPG, COBOL, DB2, API, DevOps, VS Code et IA.</p></article>
+<article class="card"><h3>legacy-modernization</h3><p>Patterns et réflexions autour de la transformation progressive des patrimoines applicatifs.</p></article>
+<article class="card"><h3>ai-for-legacy</h3><p>IA pour la compréhension du code, la documentation, l'analyse des dépendances et des impacts.</p></article>
+<article class="card"><h3>data-ai-lab</h3><p>Expérimentations Python, SQL, Power BI, analyse de données et Intelligence Artificielle.</p></article>
+<article class="card"><h3>it-business-tco</h3><p>TCO, ROI, Build vs Buy, coûts de migration, dette technique et modèles économiques logiciels.</p></article>
+<article class="card"><h3>cyber-resilience</h3><p>Veille et analyses sur la cybersécurité et la résilience des systèmes d'information.</p></article>
+</div>
 </div></section>
-
 <section id="formation"><div class="wrap">
-  <div class="eyebrow">Formation</div><h2>De l'IBM AS/400 au Product Management</h2>
-  <div class="timeline">
-    <div class="event"><div class="date">2023 — 2024 • Niveau 7 / Bac+5</div><h3>OpenClassrooms — Product Management</h3><p>Management en stratégie et développement de projets digitaux : stratégie produit, besoins utilisateurs, Agile, roadmap, KPI et transformation digitale.</p></div>
-    <div class="event"><div class="date">2000 — 2001 • Niveau Bac+5</div><h3>EPF Engineering School</h3><p>Architecture Client/Serveur et systèmes d'information : architecture applicative, développement, bases de données et intégration au SI.</p></div>
-    <div class="event"><div class="date">1992 — 1993 • Niveau Bac+4</div><h3>ESICI Bordeaux — Chargé d'affaires en informatique</h3><p>Commerce, gestion, marketing, négociation, stratégie et management appliqués au secteur informatique.</p></div>
-    <div class="event"><div class="date">1989 — 1990 • Niveau Bac+2</div><h3>AGI Rouen — Analyste-programmeur IBM AS/400</h3><p>RPG, GAP III, DB2, OS/400, analyse fonctionnelle et technique, programmation, tests et maintenance.</p></div>
-  </div>
+<div class="eyebrow">Formation</div><h2>De l'IBM AS/400 au Product Management</h2>
+<div class="timeline">
+<div class="event"><div class="date">2023 — 2024 • Niveau 7 / Bac+5</div><h3>OpenClassrooms — Product Management</h3><p>Management en stratégie et développement de projets digitaux : stratégie produit, besoins utilisateurs, Agile, roadmap, KPI et transformation digitale.</p></div>
+<div class="event"><div class="date">2000 — 2001 • Niveau Bac+5</div><h3>EPF Engineering School</h3><p>Architecture Client/Serveur et systèmes d'information : architecture applicative, développement, bases de données et intégration au SI.</p></div>
+<div class="event"><div class="date">1992 — 1993 • Niveau Bac+4</div><h3>ESICI Bordeaux — Chargé d'affaires en informatique</h3><p>Commerce, gestion, marketing, négociation, stratégie et management appliqués au secteur informatique.</p></div>
+<div class="event"><div class="date">1989 — 1990 • Niveau Bac+2</div><h3>AGI Rouen — Analyste-programmeur IBM AS/400</h3><p>RPG, GAP III, DB2, OS/400, analyse fonctionnelle et technique, programmation, tests et maintenance.</p></div>
+</div>
 </div></section>
-
 <section id="certifications"><div class="wrap">
-  <div class="eyebrow">Formation continue</div><h2>Licences, certifications & approfondissements</h2>
-  <div class="grid">
-    <article class="card"><h3>💻 NSI — Inria / FUN</h3><p><strong>2026</strong> — Enseigner le Numérique et les Sciences Informatiques : algorithmique, programmation, données, architectures, réseaux et systèmes.</p></article>
-    <article class="card"><h3>🚀 Gestion de projet Agile</h3><p><strong>OpenClassrooms — 2023</strong> — Culture Agile, Scrum, travail itératif, priorisation, collaboration et amélioration continue.</p></article>
-    <article class="card"><h3>🔎 Veille informationnelle</h3><p><strong>OpenClassrooms — 2023</strong> — Recherche, qualification des sources, analyse et veille technologique, économique, réglementaire et concurrentielle.</p></article>
-    <article class="card"><h3>📊 M1 CCA — VAPP</h3><p><strong>CNAM — 2023</strong> — Validation des acquis professionnels et personnels au niveau Master 1 Comptabilité, Contrôle, Audit.</p></article>
-    <article class="card"><h3>🎓 Enseigner dans le supérieur</h3><p><strong>Ministère de l'Enseignement supérieur — 2021</strong> — Conception pédagogique, objectifs d'apprentissage, évaluation et usages du numérique.</p></article>
-    <article class="card"><h3>🧠 Psychologie cognitive</h3><p><strong>Université Toulouse – Jean Jaurès — 2021</strong> — Perception, attention, mémoire, apprentissage, raisonnement et prise de décision.</p></article>
-    <article class="card"><h3>⚖️ Droit</h3><p><strong>Panthéon-Assas — 2021</strong> — Formation juridique et fondamentaux du droit.</p></article>
-    <article class="card"><h3>🏛️ Les fondamentaux des marchés publics</h3><p><strong>CNFPT — 2020</strong> — Acquisition des connaissances fondamentales de la commande publique : cadre juridique, principes de transparence et d’égalité de traitement, procédures de passation, appels d’offres, analyse des candidatures et des offres, attribution des marchés et suivi de leur exécution. Sensibilisation aux obligations réglementaires et aux relations entre acheteurs publics et entreprises.</p></article>
-    <article class="card"><h3>⚖️ Fondamentaux du droit — DCG</h3><p><strong>COMPTALIA — 2020</strong> — Sources du droit, contrats, responsabilité civile et environnement juridique des entreprises.</p></article>
-    <article class="card"><h3>📈 Comptabilité générale</h3><p><strong>COMPTALIA — 2020</strong> — Opérations courantes, TVA, trésorerie, immobilisations, inventaire, contrôle des comptes et clôture.</p></article>
-  </div>
+<div class="eyebrow">Formation continue</div><h2>Licences, certifications &amp; approfondissements</h2>
+<div class="grid">
+<article class="card"><h3>💻 NSI — Inria / FUN</h3><p><strong>2026</strong> — Enseigner le Numérique et les Sciences Informatiques : algorithmique, programmation, données, architectures, réseaux et systèmes.</p></article>
+<article class="card"><h3>🚀 Gestion de projet Agile</h3><p><strong>OpenClassrooms — 2023</strong> — Culture Agile, Scrum, travail itératif, priorisation, collaboration et amélioration continue.</p></article>
+<article class="card"><h3>🔎 Veille informationnelle</h3><p><strong>OpenClassrooms — 2023</strong> — Recherche, qualification des sources, analyse et veille technologique, économique, réglementaire et concurrentielle.</p></article>
+<article class="card"><h3>📊 M1 CCA — VAPP</h3><p><strong>CNAM — 2023</strong> — Validation des acquis professionnels et personnels au niveau Master 1 Comptabilité, Contrôle, Audit.</p></article>
+<article class="card"><h3>🎓 Enseigner dans le supérieur</h3><p><strong>Ministère de l'Enseignement supérieur — 2021</strong> — Conception pédagogique, objectifs d'apprentissage, évaluation et usages du numérique.</p></article>
+<article class="card"><h3>🧠 Psychologie cognitive</h3><p><strong>Université Toulouse – Jean Jaurès — 2021</strong> — Perception, attention, mémoire, apprentissage, raisonnement et prise de décision.</p></article>
+<article class="card"><h3>⚖️ Droit</h3><p><strong>Panthéon-Assas — 2021</strong> — Formation juridique et fondamentaux du droit.</p></article>
+<article class="card"><h3>🏛️ Les fondamentaux des marchés publics</h3><p><strong>CNFPT — 2020</strong> — Acquisition des connaissances fondamentales de la commande publique : cadre juridique, principes de transparence et d’égalité de traitement, procédures de passation, appels d’offres, analyse des candidatures et des offres, attribution des marchés et suivi de leur exécution. Sensibilisation aux obligations réglementaires et aux relations entre acheteurs publics et entreprises.</p></article>
+<article class="card"><h3>⚖️ Fondamentaux du droit — DCG</h3><p><strong>COMPTALIA — 2020</strong> — Sources du droit, contrats, responsabilité civile et environnement juridique des entreprises.</p></article>
+<article class="card"><h3>📈 Comptabilité générale</h3><p><strong>COMPTALIA — 2020</strong> — Opérations courantes, TVA, trésorerie, immobilisations, inventaire, contrôle des comptes et clôture.</p></article>
+</div>
 </div></section>
-
 <section id="contact"><div class="wrap">
-  <div class="eyebrow">Contact</div><h2>Échangeons autour de la modernisation des SI et de la transformation digitale</h2>
-  <p class="intro">IBM i / AS400 • Legacy • Business Development IT • Account Management • Product Management • Data & IA • Cybersécurité • Transformation digitale</p>
-  <div class="actions"><a class="btn primary" href="https://www.linkedin.com/in/ludovic-bultey/" target="_blank" rel="noopener">Me retrouver sur LinkedIn</a></div>
-  <blockquote>« La phrase la plus dangereuse est : “Nous avons toujours fait comme ça.” » — Grace Hopper</blockquote>
+<div class="eyebrow">Contact</div><h2>Échangeons autour de la modernisation des SI et de la transformation digitale</h2>
+<p class="intro">IBM i / AS400 • Legacy • Business Development IT • Account Management • Product Management • Data &amp; IA • Cybersécurité • Transformation digitale</p>
+<div class="actions"><a class="btn primary" href="https://www.linkedin.com/in/ludovic-bultey/" rel="noopener" target="_blank">Me retrouver sur LinkedIn</a></div>
+<blockquote>« La phrase la plus dangereuse est : “Nous avons toujours fait comme ça.” » — Grace Hopper</blockquote>
 </div></section>
-
 <section id="roadmap-ruptures"><div class="wrap">
-  <div class="eyebrow">Conclusion · 1990 à nos jours</div>
-  <h2>Roadmap et ruptures technologiques — de 1990 à nos jours</h2>
-  <p class="intro">Des systèmes de gestion historiques aux usages de l’IA, les grandes ruptures technologiques ont transformé les architectures, les métiers et les modèles économiques. Mon parcours s’inscrit dans cette continuité : comprendre l’existant, accompagner les transitions et créer de la valeur.</p>
-  <div class="tech-roadmap" aria-label="Frise chronologique des évolutions technologiques">
-    <article class="tech-stage"><span class="era">Années 1990</span><h3>Legacy &amp; IBM AS/400</h3><p>Applications de gestion, RPG, COBOL, ERP, systèmes centralisés et continuité opérationnelle.</p></article>
-    <article class="tech-stage"><span class="era">Années 2000</span><h3>Client / serveur</h3><p>Architectures distribuées, bases de données, interfaces métiers et intégration applicative.</p></article>
-    <article class="tech-stage"><span class="era">Années 2010</span><h3>Web &amp; mobilité</h3><p>Applications web et mobiles, nouveaux usages, digitalisation des processus et expérience utilisateur.</p></article>
-    <article class="tech-stage"><span class="era">2020–2023</span><h3>Cloud &amp; DevOps</h3><p>Services cloud, API, automatisation, agilité et modernisation progressive des SI.</p></article>
-    <article class="tech-stage"><span class="era">2023–2026</span><h3>Data &amp; IA</h3><p>Valorisation des données, IA générative, nouveaux usages et accompagnement du changement.</p></article>
-    <article class="tech-stage"><span class="era">Aujourd’hui · 2026</span><h3>IA agentique &amp; résilience</h3><p>Agents intelligents, cybersécurité, gouvernance et intégration maîtrisée au patrimoine applicatif.</p></article>
-  </div>
-  <p class="tech-note"><strong>Fil conducteur :</strong> moderniser ne signifie pas nécessairement tout réécrire. La rupture technologique se pilote en préservant la valeur des systèmes existants.</p>
+<div class="eyebrow">Conclusion · 1990 à nos jours</div>
+<h2>Roadmap et ruptures technologiques — de 1990 à nos jours</h2>
+<p class="intro">Des systèmes de gestion historiques aux usages de l’IA, les grandes ruptures technologiques ont transformé les architectures, les métiers et les modèles économiques. Mon parcours s’inscrit dans cette continuité : comprendre l’existant, accompagner les transitions et créer de la valeur.</p>
+<div aria-label="Frise chronologique des évolutions technologiques" class="tech-roadmap">
+<article class="tech-stage"><span class="era">Années 1990</span><h3>Legacy &amp; IBM AS/400</h3><p>Applications de gestion, RPG, COBOL, ERP, systèmes centralisés et continuité opérationnelle.</p></article>
+<article class="tech-stage"><span class="era">Années 2000</span><h3>Client / serveur</h3><p>Architectures distribuées, bases de données, interfaces métiers et intégration applicative.</p></article>
+<article class="tech-stage"><span class="era">Années 2010</span><h3>Web &amp; mobilité</h3><p>Applications web et mobiles, nouveaux usages, digitalisation des processus et expérience utilisateur.</p></article>
+<article class="tech-stage"><span class="era">2020–2023</span><h3>Cloud &amp; DevOps</h3><p>Services cloud, API, automatisation, agilité et modernisation progressive des SI.</p></article>
+<article class="tech-stage"><span class="era">2023–2026</span><h3>Data &amp; IA</h3><p>Valorisation des données, IA générative, nouveaux usages et accompagnement du changement.</p></article>
+<article class="tech-stage"><span class="era">Aujourd’hui · 2026</span><h3>IA agentique &amp; résilience</h3><p>Agents intelligents, cybersécurité, gouvernance et intégration maîtrisée au patrimoine applicatif.</p></article>
+</div>
+<p class="tech-note"><strong>Fil conducteur :</strong> moderniser ne signifie pas nécessairement tout réécrire. La rupture technologique se pilote en préservant la valeur des systèmes existants.</p>
 </div></section>
-
 <section id="conclusion-parcours">
-  <div class="wrap">
-    <div class="eyebrow">Conclusion</div>
-    <h2>Parcours professionnel : entre diversité et continuité</h2>
-    <p class="intro">Un parcours n’est pas une ligne droite : il se construit par les choix, les opportunités, les missions et les rencontres. Le fil conducteur reste la création de valeur, le pilotage de projets, la transformation digitale et l’accompagnement des équipes et des clients.</p>
-    <figure style="margin:30px 0 0">
-      <img src="parcours-professionnel-conclusion.png" alt="Parcours professionnel de Ludovic Bultey : entre diversité et continuité" style="width:100%;height:auto;border-radius:18px;border:1px solid var(--line);display:block">
-    </figure>
-  </div>
+<div class="wrap">
+<div class="eyebrow">Conclusion</div>
+<h2>Parcours professionnel : entre diversité et continuité</h2>
+<p class="intro">Un parcours n’est pas une ligne droite : il se construit par les choix, les opportunités, les missions et les rencontres. Le fil conducteur reste la création de valeur, le pilotage de projets, la transformation digitale et l’accompagnement des équipes et des clients.</p>
+<figure style="margin:30px 0 0">
+<img alt="Parcours professionnel de Ludovic Bultey : entre diversité et continuité" src="parcours-professionnel-conclusion.png" style="width:100%;height:auto;border-radius:18px;border:1px solid var(--line);display:block"/>
+</figure>
+</div>
 </section>
-
 </main>
-
 <footer><div class="wrap">
-  <strong>Ludovic BULTEY</strong> — IT • Business • Modernisation SI
+<strong>Ludovic BULTEY</strong> — IT • Business • Modernisation SI
   <p class="small">Portfolio personnel — HTML/CSS, sans dépendance externe. Compatible GitHub Pages.</p>
 </div></footer>
 </body>
